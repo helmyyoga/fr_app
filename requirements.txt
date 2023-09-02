@@ -1,10 +1,9 @@
-cv2
-os
-cv2
-os
-pickle
+opencv-python
+os-sys
+pickle5
 face_recognition
 numpy
 cvzone
 firebase_admin
-time
+python-time
+wheel
