@@ -1,10 +1,10 @@
+numpy
 opencv-python
 numpy
 wheel
 cmake==3.15.3
 lib
 face_recognition
-numpy
 cvzone
 firebase_admin
 python-time
