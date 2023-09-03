@@ -1,5 +1,6 @@
 opencv-python
 wheel
+cmake
 face_recognition
 numpy
 cvzone
