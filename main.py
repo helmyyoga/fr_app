@@ -1,7 +1,5 @@
 import cv2
 import os
-import cv2
-import os
 import pickle
 import face_recognition
 import numpy as np
@@ -14,6 +12,7 @@ import numpy as np
 from datetime import datetime
 import time
 from time import sleep
+import streamlit as st
 
 cred = credentials.Certificate("serviceAccountKey.json")
 firebase_admin.initialize_app(cred, {
