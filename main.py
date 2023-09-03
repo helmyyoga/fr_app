@@ -14,6 +14,8 @@ import time
 from time import sleep
 import streamlit as st
 
+#st.title('tes')
+
 cred = credentials.Certificate("serviceAccountKey.json")
 firebase_admin.initialize_app(cred, {
     'databaseURL':"https://teha-27d7f-default-rtdb.asia-southeast1.firebasedatabase.app/",
