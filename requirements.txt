@@ -1,6 +1,6 @@
 opencv-python
 wheel
-cmaked
+make==3.15.3
 lib
 face_recognition
 numpy
