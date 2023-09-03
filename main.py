@@ -13,8 +13,8 @@ from datetime import datetime
 import time
 from time import sleep
 import streamlit as st
+import tempfile
 
-#st.title('tes')
 
 cred = credentials.Certificate("serviceAccountKey.json")
 firebase_admin.initialize_app(cred, {
@@ -25,9 +25,10 @@ firebase_admin.initialize_app(cred, {
 bucket = storage.bucket()
 
 cap = cv2.VideoCapture(0)
+
 #grafik size
 cap.set(3, 640) 
-cap.set(4, 480) 
+cap.set(4, 480)  
 
 imgBackground = cv2.imread('Resources/background.png')
 
