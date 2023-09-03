@@ -1,6 +1,5 @@
 opencv-python
 wheel
-os-sys
 pickle5
 face_recognition
 numpy
