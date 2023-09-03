@@ -1,4 +1,5 @@
 opencv-python
+wheel
 os-sys
 pickle5
 face_recognition
@@ -6,4 +7,3 @@ numpy
 cvzone
 firebase_admin
 python-time
-wheel
